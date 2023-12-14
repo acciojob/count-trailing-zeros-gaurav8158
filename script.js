@@ -1,7 +1,7 @@
 function trailingZeros(n) {
   //your JS code here. If required.
 	let factorial = fact(n);
-	alert(factorial) 
+	
 	let num=0;
 	while(factorial%10===0){
 		num+=1;
