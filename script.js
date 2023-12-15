@@ -3,9 +3,9 @@ function trailingZeros(n) {
 	let factorial = fact(n);
 	
 	let num=0;
-	while(factorial%10===0){
+	while(factorial%5===0){
 		num+=1;
-		factorial=factorial/10;
+		factorial=factorial/5;
 	}
 	return num;
 	
